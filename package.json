@@ -11,7 +11,8 @@
     "deploy": "mate-scripts deploy",
     "update": "mate-scripts update",
     "postinstall": "npm run update",
-    "test": "npm run lint && npm run test:only"
+    "test": "npm run lint && npm run test:only",
+    "dev": "parcel src/index.html"
   },
   "keywords": [],
   "author": "Mate Academy",
@@ -22,10 +23,10 @@
     "@mate-academy/linthtml-config": "latest",
     "@mate-academy/scripts": "^2.1.2",
     "@mate-academy/stylelint-config": "latest",
-    "@parcel/transformer-sass": "^2.12.0",
+    "@parcel/transformer-sass": "^2.16.0",
     "eslint": "^8.57.0",
     "eslint-plugin-node": "^11.1.0",
-    "parcel": "^2.12.0",
+    "parcel": "^2.16.0",
     "prettier": "^3.3.2",
     "stylelint": "^16.7.0",
     "stylelint-scss": "^6.4.1"
